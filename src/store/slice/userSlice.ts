@@ -10,11 +10,11 @@ interface userState {
 const initialState: userState = {
   user: [
     {
-      login: 'frost333',
-      email: 'daybi@mail.ru',
-      pw: '123456',
-      pwRepeat: '123456',
-      token: 125125125,
+      login: 'user',
+      email: 'user@mail.ru',
+      pw: 'user123',
+      pwRepeat: 'user123',
+      token: 0,
     },
   ],
   isAuth: false,
